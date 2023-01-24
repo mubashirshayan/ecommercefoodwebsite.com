@@ -1,0 +1,76 @@
+.map {
+    width: 400px;
+    height: 400px;
+}
+
+h4 {
+    font-family: serif;
+}
+           /* NAVBARSTYLIG */
+           .navbar{position: sticky;
+            top: 0px;
+            z-index: 1;}
+.navbar-nav {
+    padding-left: 250px;
+}
+
+.bgnav {
+    background-color: red;
+    border-radius: 40px;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+}
+a{text-transform: uppercase;}
+      /* GALLERY STYLING */
+.divparent {
+    display: flex;
+    min-height: 100px;
+    flex-wrap: wrap ;
+
+   
+}
+
+.g_1 {
+    height: 150px;
+    width: 250px;
+}
+
+.g_2 {
+    height: 150px;
+    width: 250px;
+}
+
+.g_3 {
+    height: 150px;
+    width: 250px;
+}
+
+.g_4 {
+    height: 150px;
+    width: 250px;
+}
+
+.g_5 {
+    height: 150px;
+    width: 250px;
+}
+input{width:500px}
+.size1{width: 150px;}
+.delivery_img{width: 600px;}
+.parent{background-color: rgb(196, 224, 235);}
+button:hover{background-color: black;
+color: white;}
+button{height: 50px;
+    border:1px solid  ;
+border-radius: 20px;}
+.button{height: 50px;
+    border-radius: 40px;
+    border: 2px solid whitesmoke;}
+    button:hover{background-color: black;
+    color: white;}
+.main_img{width: 100vw;
+height: 250px;}

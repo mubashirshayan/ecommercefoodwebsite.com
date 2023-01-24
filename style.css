@@ -1,0 +1,57 @@
+h1{font-family: serif;}
+.button{height: 50px;
+border-radius: 40px;
+border: 2px solid whitesmoke;}
+button:hover{background-color: black;
+color: white;}
+
+    /* MAINIMAGE STYLING */
+.maindiv{position: relative;
+}
+.subdiv{position: absolute;
+    top: 50%;
+height: 300px;
+width: 600px;}
+
+.parent_div{display: flex;
+flex-direction: column;}
+.mainimage{width: 100vw;}
+.mainidiv{margin-top: 400px;}
+     /* navbarstyling */
+     .navbar-nav{padding-left: 100px;}
+     .bgnav{background-color: red;}
+     a:hover{background-color: red;
+    color:white;
+    border-radius: 40px;}
+    .navbar{position: sticky;
+        top: 0px;
+        z-index: 1;
+    width: 100vw;}
+    a{text-transform: uppercase;}
+
+/* .container-fluid{position: fixed;
+background-color: blueviolet;} */
+    /* Gallerystyling */
+.divparent{display: flex;
+min-height: 100px;
+flex-wrap: wrap;}
+.g_1{height: 150px;
+width: 250px;}
+.g_2{height: 150px;
+    width: 250px;}
+    .g_3{height: 150px;
+        width: 250px;}
+        .g_4{height: 150px;
+            width: 250px;}
+            .g_5{height: 150px;
+                width: 250px;}
+      /* HEADING STYLING */
+.h1{background-color: rgb(182, 13, 13);
+color: white;
+width: 400px;}
+input{width: 200px;}
+.map{width: 400px;
+height: 400px;}
+h4{font-family: serif;}
+.bgcolor{background-color: rgb(247, 24, 24);
+color: white;}
